@@ -43,16 +43,17 @@ When you execute this command, the application will launch in your web browser. 
 
 ## Tools and Technologies
 **Frontend Framework**:
-- React
-- React Router
+- HTML/CSS
+- JavaScript (with Fetch API)
 
-**State Management**:
-- useState Hook
+**Backend Framework**:
+- Node.js
 
-**Styling**:
-  - Custom CSS
-  - CSS Media Queries
-  - CSS Animations
+**API**:
+  - OpenWeather API
+
+**Data Storage**:
+- JSON
 
 **Hosting**:
 - Render
@@ -60,11 +61,11 @@ When you execute this command, the application will launch in your web browser. 
 ## Dependencies and Installs
 
 **NPM Packages**:
-  - `react`, `react-dom` - Core React dependencies.
-  - `react-router-dom` - For page routing.
-  - `typescript` - Provides type safety.
-  - `vite` - Used for initial project setup and fast builds.
-  - `eslint` - Enforces code standards with `.eslintrc.cjs` configuration
+  - `express` - A web framework for Node.js to create server-side applications.
+- `fs` - Node.js file system module for reading and writing the searchHistory.json file.
+- `cors` - A package to enable Cross-Origin Resource Sharing, allowing your frontend to communicate with your backend.
+- `dotenv` - For managing environment variables, especially for the API key.
+- `body-parser` - Middleware to parse incoming request bodies in a middleware before your handlers, available under the req.body property.
 
 ## License
 This project is licensed under the MIT License, which allows you to freely use, modify, and distribute this software, provided proper attribution is given.
