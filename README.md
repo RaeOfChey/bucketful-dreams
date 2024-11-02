@@ -1,4 +1,6 @@
-# Bucketful Dreams
+# GitHired
+
+### Status: In Progress
 
 ![License](https://img.shields.io/badge/license-MIT-brightgreen.svg)
 
@@ -7,10 +9,12 @@
 2. [Features](#features)
 3. [Installation](#installation)
 4. [Usage](#usage)
-5. [License](#license)
-6. [Contributing](#contributing)
-7. [Tests](#tests)
-8. [Questions](#questions)
+5. [Tools and Technologies](#tools-and-technologies)
+6. [Dependencies and Installs](#dependencies-and-installs)
+7. [License](#license)
+8. [Contributing](#contributing)
+9. [Tests](#tests)
+10. [Questions](#questions)
 
 ## Description
 **Bucketful Dreams** is a dynamic web application that empowers users to create and manage their bucket lists. Just like reaching for your dreams, this app lets you add, edit, and delete items while categorizing them by eagerness levels. Experience a colorful and interactive way to track your aspirations!
@@ -37,22 +41,39 @@ When you execute this command, the application will launch in your web browser. 
 - View your entire bucket list with items color-coded by eagerness.
 - Edit existing items or remove them from the list.
 
-Feel free to modify the CSS to personalize the look and feel of your application!
+## Tools and Technologies
+**Frontend Framework**:
+- React
+- React Router
+
+**State Management**:
+- useState Hook
+
+**Styling**:
+  - Custom CSS
+  - CSS Media Queries
+  - CSS Animations
+
+**Hosting**:
+- Render
+
+## Dependencies and Installs
+
+**NPM Packages**:
+  - `react`, `react-dom` - Core React dependencies.
+  - `react-router-dom` - For page routing.
+  - `typescript` - Provides type safety.
+  - `vite` - Used for initial project setup and fast builds.
+  - `eslint` - Enforces code standards with `.eslintrc.cjs` configuration
 
 ## License
 This project is licensed under the MIT License, which allows you to freely use, modify, and distribute this software, provided proper attribution is given.
 
 ## Contributing
-Contributions are welcome! If you'd like to contribute to this project, follow the steps below.
-
-- Step 1: Fork the repository.
-- Step 2: Create a feature branch: `git checkout -b feature/new-feature`.
-- Step 3: Commit your changes: `git commit -m "Add new feature"`.
-- Step 4: Push to the branch: `git push origin feature/new-feature`.
-- Step 5: Open a pull request.
+This project is part of a coding bootcamp assignment and is not open for contributions. To comply with the course requirements, I must complete this project individually without outside assistance. Therefore, pull requests, issues, or other contributions will not be accepted. Thank you for understanding!
 
 ## Tests
-Currently, this project does not have any automated tests. However, if you'd like to add tests, feel free to contribute! You can set up testing using a framework like Mocha or Jest.
+Currently, this project does not have any automated tests.
 
 ## Questions
-If you have any questions about the repository, feel free to reach out by opening an issue or contacting me directly at cheyennaraelynn@gmail.com. You can also find more of my work on GitHub at https://github.com/RaeOfChey.
+If you have any questions about the repository, feel free to reach out by opening an issue or contacting me directly at cheyennaraelynn@gmail.com You can also find more of my work on GitHub at https://github.com/RaeOfChey.
